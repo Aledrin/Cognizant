@@ -24,7 +24,7 @@ for key, value in info.items():
 tup = (1, 2, 3)
 print(tup)
 try:
-    tup[0] = "Interstellar"
+    tup[0] = "4"
 except TypeError as e:
     print(f"Error: {e}")
 
